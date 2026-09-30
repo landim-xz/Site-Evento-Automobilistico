@@ -1,0 +1,154 @@
+/*Alunos:
+Gabriel Landim Silveira
+Arthur de Oliveira Trindade
+DS-05
+*/
+
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    margin: 0;
+}
+
+.cabecalho {
+    background-color: #6a0dad;
+    color: #ffffff;
+    text-align: center;
+    padding: 40px 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.slogan {
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.conteudo-principal {
+    width: 60%;
+    margin: 0 auto;
+    padding: 40px 0;
+}
+
+.imagem-destaque {
+    width: 100%;
+    display: block;
+    border: 3px solid #6a0dad;
+    border-radius: 25px;
+    margin-bottom: 40px;
+}
+
+.sobre-evento {
+    background-color: #1e1e1e;
+    padding: 30px;
+    border-left: 8px solid #8a2be2;
+    border-radius: 15px;
+    margin-bottom: 40px;
+}
+
+.sobre-evento h2 {
+    color: #b026ff;
+    margin-bottom: 15px;
+}
+
+.informacoes-evento {
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 15px;
+    border-top: 5px solid #6a0dad;
+}
+
+.informacoes-evento h2 {
+    color: #b026ff;
+    margin-bottom: 20px;
+}
+
+.destaque-titulo {
+    color: #b026ff;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.informacoes-evento p {
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.programacao {
+    background-color: #2d004d;
+    color: #ffffff;
+    padding: 30px;
+    margin-bottom: 40px;
+    border-radius: 25px;
+}
+
+.programacao h2 {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #6a0dad;
+    padding-bottom: 10px;
+    color: #d68bff;
+}
+
+.item-programacao {
+    background-color: #111111;
+    color: #ffffff;
+    padding: 15px 20px;
+    margin: 0 0 12px 0; 
+    border-radius: 12px;
+    border-left: 4px solid #6a0dad;
+}
+
+.item-programacao strong {
+    color: #b026ff;
+}
+
+.inscricao {
+    text-align: center;
+    padding: 50px 30px;
+    border: 2px dashed #8a2be2;
+    border-radius: 30px;
+    margin-bottom: 50px;
+}
+
+.inscricao h2 {
+    color: #b026ff;
+    margin-bottom: 10px;
+}
+
+.botao {
+    background-color: #6a0dad;
+    color: #ffffff;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+.botao:hover {
+    background-color: #8a2be2;
+    color: #ffffff;
+}
+
+.rodape {
+    text-align: center;
+    padding: 30px 20px;
+    font-size: 14px;
+    color: #888888;
+    background-color: #0a0a0a;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
