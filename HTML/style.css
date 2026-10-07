@@ -1,6 +1,7 @@
 /*Alunos:
 Gabriel Landim Silveira
 Arthur de Oliveira Trindade
+Gabriel Alves de Oliveira Bastos
 DS-05
 */
 
@@ -151,4 +152,101 @@ h1, h2 {
     background-color: #0a0a0a;
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+}
+
+.formulario-inscricao {
+    background-color: #1e1e1e;
+    padding: 40px;
+    border: 3px solid #6a0dad;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    text-align: left;
+}
+
+.formulario-inscricao label {
+    display: block;
+    color: #b026ff;
+    font-weight: bold;
+    margin-bottom: 8px;
+    margin-top: 20px;
+}
+
+.formulario-inscricao input,
+.formulario-inscricao select {
+    width: 100%;
+    padding: 15px;
+    background-color: #111111;
+    color: #ffffff;
+    border: 2px solid #2d004d;
+    border-radius: 12px;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease;
+}
+
+.formulario-inscricao input:focus,
+.formulario-inscricao select:focus {
+    outline: none;
+    border-color: #8a2be2;
+    background-color: #1a1a1a;
+}
+
+.formulario-inscricao .botaoconfirmacao {
+    width: 90%;
+    border: none;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.botaoconfirmacao {
+    background-color: #6a0dad;
+    color: #ffffff;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 50px;
+    display: inline-block;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+    text-align: center;
+}
+
+.link-voltar {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #888888;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.link-voltar:hover {
+    color: #b026ff;
+}
+
+.confirmacao-box {
+    background-color: #1e1e1e;
+    padding: 60px 40px;
+    border: 3px solid #6a0dad;
+    border-radius: 25px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.confirmacao-box h2 {
+    color: #b026ff;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+.confirmacao-box p {
+    font-size: 16px;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.confirmacao-box .botao {
+    margin-top: 30px;
 }

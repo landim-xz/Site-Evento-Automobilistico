@@ -1,0 +1,59 @@
+<!--Alunos:
+Gabriel Landim Silveira
+Arthur de Oliveira Trindade
+Gabriel Alves de Oliveira Bastos
+DS-05
+-->
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscrição - Auto Experience 2026</title>
+    <!-- Usa o mesmo CSS para manter o padrão visual -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="cabecalho">
+        <h1>GARANTA SEU INGRESSO</h1>
+        <p class="slogan">Preencha os dados abaixo para confirmar sua presença.</p>
+    </header>
+
+    <main class="conteudo-principal">
+        
+        <section class="formulario-inscricao">
+            <form action="/cadastrar" method="POST">
+                
+                <label for="nome">Nome Completo</label>
+                <input type="text" id="nome" name="nome" placeholder="Digite seu nome completo" required>
+
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="Digite seu e-mail" required>
+
+                <label for="tipo-ingresso">Tipo de Ingresso</label>
+                <select id="tipo-ingresso" name="tipo-ingresso">
+                    <option value="padrao">Normal (Inteira) - R$ 70,00</option>
+                    <option value="meia">Normal (Meia) - R$ 35,00</option>
+                    <option value="vip">VIP (Acesso aos boxes) - R$ 150,00</option>
+                    <option value="vip-meia">VIP (Meia Acesso aos boxes) - R$ 75,00</option>
+                </select>
+
+                <button type="submit" class="botaoconfirmacao">Confirmar Inscrição</button>              
+            </form>
+
+            <br>
+            <a href="index.html" class="link-voltar">← Voltar para a página inicial</a>
+        </section>
+
+    </main>
+
+    <footer class="rodape">
+        <p>Auto Experience 2026 - Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
+
+<form action="http://localhost:3000/cadastrar" method="POST"></form>
